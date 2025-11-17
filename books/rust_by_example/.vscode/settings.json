@@ -1,0 +1,11 @@
+{
+    "editor.rulers": [60, 72],
+    
+    "[rust]": {
+        // 1. Explicitly set rust-analyzer as the formatter for .rs files
+        "editor.defaultFormatter": "rust-lang.rust-analyzer", 
+        
+        // 2. Enable formatting on save for .rs files
+        "editor.formatOnSave": true
+    }
+}
