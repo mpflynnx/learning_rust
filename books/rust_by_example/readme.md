@@ -15,7 +15,7 @@
 - [4_variable_bindings](./4_variable_bindings/binding/src/main.rs)
 - [4_1_mutability](./4_variable_bindings/4_1_mutability/mutability/src/main.rs)
 - [4_2_scope_and_shadowing/scope](./4_variable_bindings/4_2_scope_and_shadowing/scope/src/main.rs)
-- [4_2_scope_and_shadowing/shadowing](.4_variable_bindings/4_2_scope_and_shadowing/shadowing/src/main.rs)
+- [4_2_scope_and_shadowing/shadowing](./4_variable_bindings/4_2_scope_and_shadowing/shadowing/src/main.rs)
 - [4_3_declare_first](./4_variable_bindings/4_3_declare_first/declare_first/src/main.rs)
 - [4_4_freezing](./4_variable_bindings/4_4_freezing/freezing/src/main.rs)
 - [5_2_literals](./5_types/5_2_literals/literals/src/main.rs)
