@@ -8,6 +8,8 @@
 
 - [Chapter 5_1 | Defining Structs | Classic C Struct)](./5_1_Defining_Structs/defining_structs/src/main.rs)
 - [Chapter 5_1 | Defining Structs | Tuple Structs](./5_1_Defining_Structs/tuple_structs/src/main.rs)
+- [Chapter 5_2 | Struct example project](./5_2_example_program_using_structs/rectangles/src/main.rs)
+- [Chapter 5_2 | Struct method example](./5_3_method_syntax/area_method/src/main.rs)
 
 
 
