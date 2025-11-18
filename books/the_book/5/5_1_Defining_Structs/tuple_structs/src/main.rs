@@ -4,7 +4,6 @@ struct Point(i32, i32, i32);
 struct Pair(i32, f32);
 
 fn main() {
-
     // Instantiate a tuple struct
     let pair = Pair(1, 0.1);
     let black = Color(0, 0, 0);
@@ -20,5 +19,4 @@ fn main() {
     println!("x:{:?} y:{:?} z:{:?}", x, y, z);
 
     println!("pair contains {:?} and {:?}", integer, decimal);
-
 }
