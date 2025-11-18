@@ -31,4 +31,17 @@ fn main() {
     //     width: 30,
     //     height: 50,
     // }
+
+    // dbg! macro usage
+    let scale = 2;
+    let rect2 = Rectangle {
+        width: dbg!(30 * scale), // Output: [src/main.rs:37:16] 30 * scale = 60
+        height: 50,
+    };
+
+    dbg!(&rect2);
+    // Output:
+    // [src/main.rs:41:5] &rect2 = Rectangle {
+    // width: 60,
+    // height: 50,
 }
