@@ -5,7 +5,6 @@
 1. There can only be one owner at a time
 1. When a owner goes out of scope, the value will be dropped
 
-
 ### Reference rules
 1. At any given time, you can have either one mutable reference or any number of immutable references.
 1. References must always be valid.
