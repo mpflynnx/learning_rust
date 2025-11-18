@@ -7,5 +7,11 @@
         
         // 2. Enable formatting on save for .rs files
         "editor.formatOnSave": true
-    }
+    },
+
+    // fix for rust-analyzer error
+    // ERROR failed to find any projects in [AbsPathBuf("/..."]
+    "rust-analyzer.linkedProjects": [
+        "./books/the_book/5/5_2_example_program_using_structs/rectangles/Cargo.toml"
+    ]
 }
