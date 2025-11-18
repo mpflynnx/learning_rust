@@ -5,7 +5,7 @@ struct User {
     username: String,
     email: String,
     sign_in_count: u64,
-}
+} // no semi-colon needed in Rust
 
 fn build_user(email: String, username: String) -> User {
     User {
