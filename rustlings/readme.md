@@ -2,6 +2,34 @@
 
 Small exercises to get you used to reading and writing Rust code.
 
+### My passing solutions
+
+- [exercises/00_intro/intro1.rs](./00_intro/intro1.rs)
+- [exercises/00_intro/intro2.rs](./00_intro/intro2.rs)
+- [exercises/01_variables/variables1.rs](./01_variables/variables1.rs)
+- [exercises/01_variables/variables2.rs](./01_variables/variables2.rs)
+- [exercises/01_variables/variables3.rs](./01_variables/variables3.rs)
+- [exercises/01_variables/variables4.rs](./01_variables/variables4.rs)
+- [exercises/01_variables/variables5.rs](./01_variables/variables5.rs)
+- [exercises/01_variables/variables6.rs](./01_variables/variables6.rs)
+- [exercises/02_functions/functions1.rs](./02_functions/functions1.rs)
+- [exercises/02_functions/functions2.rs](./02_functions/functions2.rs)
+- [exercises/02_functions/functions3.rs](./02_functions/functions3.rs)
+- [exercises/02_functions/functions4.rs](./02_functions/functions4.rs)
+- [exercises/02_functions/functions5.rs](./02_functions/functions5.rs)
+- [exercises/03_if/if1.rs](./03_if/if1.rs)
+- [exercises/03_if/if2.rs](./03_if/if2.rs)
+- [exercises/03_if/if3.rs](./03_if/if3.rs)
+- [exercises/04_primitive_types/primitive_types1.rs](./04_primitive_types/primitive_types1.rs)
+- [exercises/04_primitive_types/primitive_types2.rs](./04_primitive_types/primitive_types2.rs)
+- [exercises/04_primitive_types/primitive_types3.rs](./04_primitive_types/primitive_types3.rs)
+- [exercises/04_primitive_types/primitive_types4.rs](./04_primitive_types/primitive_types4.rs)
+- [exercises/04_primitive_types/primitive_types5.rs](./04_primitive_types/primitive_types5.rs)
+- [exercises/04_primitive_types/primitive_types6.rs](./04_primitive_types/primitive_types6.rs)
+- [exercises/07_structs/structs1.rs](./07_structs/structs1.rs)
+- [exercises/07_structs/structs2.rs](./07_structs/structs2.rs)
+- [exercises/07_structs/structs3.rs](./07_structs/structs3.rs)
+
 ## Useful links
 - [Rustlings Setup Instructions](https://rustlings.rust-lang.org/setup/)
 - [github.com | rustlings](https://github.com/rust-lang/rustlings)
