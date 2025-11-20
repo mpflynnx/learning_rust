@@ -29,6 +29,9 @@ Small exercises to get you used to reading and writing Rust code.
 - [exercises/07_structs/structs1.rs](./07_structs/structs1.rs)
 - [exercises/07_structs/structs2.rs](./07_structs/structs2.rs)
 - [exercises/07_structs/structs3.rs](./07_structs/structs3.rs)
+- [exercises/08_enums/enums1.rs](./08_enums/enums1.rs)
+- [exercises/08_enums/enums2.rs](./08_enums/enums2.rs) 
+- [exercises/08_enums/enums3.rs](./08_enums/enums3/src/lib.rs)
 
 ## Useful links
 - [Rustlings Setup Instructions](https://rustlings.rust-lang.org/setup/)
