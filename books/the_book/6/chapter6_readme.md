@@ -6,6 +6,7 @@
 - [Rust standard library Enum IpAddr definition](https://doc.rust-lang.org/stable/std/net/enum.IpAddr.html)
 - [Rust standard library Struct Ipv4Addr definition](https://doc.rust-lang.org/stable/std/net/struct.Ipv4Addr.html)
 - [Rust standard library Struct Ipv6Addr definition](https://doc.rust-lang.org/stable/std/net/struct.Ipv6Addr.html)
+- [Rust standard library Option Enum](https://doc.rust-lang.org/stable/std/option/enum.Option.html)
 
 ### Example code
 
@@ -13,3 +14,4 @@
 - [Chapter 6_1 | Defining an Enum | ipaddr_example2](./6_1_Defining_an_Enum/ipaddr_example2/src/main.rs)
 - [Chapter 6_1 | Defining an Enum | ipaddr_example3](./6_1_Defining_an_Enum/ipaddr_example3/src/main.rs)
 - [Chapter 6_1 | Defining an Enum | message example](./6_1_Defining_an_Enum/message_example/src/main.rs)
+- [Chapter 6_1 | Defining an Enum | Option`<T>` enum](./6_1_Defining_an_Enum/optiont_enum/src/main.rs)
