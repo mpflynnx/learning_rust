@@ -15,3 +15,4 @@
 - [Chapter 6_1 | Defining an Enum | ipaddr_example3](./6_1_Defining_an_Enum/ipaddr_example3/src/main.rs)
 - [Chapter 6_1 | Defining an Enum | message example](./6_1_Defining_an_Enum/message_example/src/main.rs)
 - [Chapter 6_1 | Defining an Enum | Option`<T>` enum](./6_1_Defining_an_Enum/optiont_enum/src/main.rs)
+- [Chapter 6_1 | Defining an Enum | enum with match](./6_1_Defining_an_Enum/enum_with_match/src/main.rs)
