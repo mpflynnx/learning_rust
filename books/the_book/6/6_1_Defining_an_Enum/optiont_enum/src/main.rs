@@ -25,13 +25,33 @@
 fn main() {
     // Do not need 'Option::' prefix, but shown as it is
     // used like a normal enum
-    // let some_number = Option::Some(5);
-    // short form below
-    let some_number = Some(5);
+
+    // The type can be inferred from Some(5) as i32 so Option<i32>
+    // is also not required.
+
+    // long form below:
+    let some_number: Option<i32> = Option::Some(5);
+
+    //short form below
+    // let some_number = Some(5);
     // using a Option<T> method is_some()
     assert_eq!(some_number.is_some(), true);
 
+    // Compiler cannot infer type from None
+    // So must declared a type as Option<i32>
     let absent_number: Option<i32> = None;
     assert_eq!(absent_number.is_some(), false);
 
+    let five = Some(5);
+    let six = plus_one(five);
+    let none = plus_one(None);
+    assert_eq!(six, Some(6));
+    assert_eq!(none, None);
+}
+
+fn plus_one(x: Option<i32>) -> Option<i32> {
+    match x {
+        None => None,
+        Some(i) => Some(i + 1),
+    }
 }
