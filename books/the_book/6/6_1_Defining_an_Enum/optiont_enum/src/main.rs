@@ -1,3 +1,5 @@
+// https://doc.rust-lang.org/stable/book/ch06-01-defining-an-enum.html
+
 // An enum called Option<T> in the std library is used when
 // absence is a possibility
 
