@@ -5,10 +5,17 @@ struct Rectangle {
 }
 
 // impl for implementation block
+// All functions defined within an impl block are called
+// associated functions
+// https://doc.rust-lang.org/stable/book/ch05-03-method-syntax.html#associated-functions
+
 impl Rectangle {
     // Everything in this block is associated with Rectangle struct
     fn area(&self) -> u32 {
         // &self equivalent to self: &Self
+        // &self parameter borrows the instance, allowing the
+        // method to read its data without taking ownership,
+        // and preventing modification.
         self.width * self.height
     }
 
@@ -19,6 +26,15 @@ impl Rectangle {
     // method takes multiple parameter
     fn can_hold(&self, other: &Rectangle) -> bool {
         self.width > other.width && self.height > other.height
+    }
+
+    // Associated functions that aren’t methods are often used for
+    // constructors that will return a new instance of the struct.
+    fn square(size: u32) -> Self {
+        Self {
+            width: size,
+            height: size,
+        }
     }
 }
 
@@ -45,6 +61,10 @@ fn main() {
         width: 60,
         height: 45,
     };
+
+    // Associated functions are called by using the struct 
+    // name followed by the double colon '::' and the function name.
+    let rect4 = Rectangle::square(30);
 
     println!("rect1 holds rect2? {}", rect1.can_hold(&rect2));
     println!("rect1 holds rect23 {}", rect1.can_hold(&rect3));

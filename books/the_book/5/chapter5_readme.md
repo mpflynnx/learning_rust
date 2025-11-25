@@ -3,6 +3,7 @@
 ### External References
 
 - [Book Chapter 5: Using Structs to Structure Related Data](https://doc.rust-lang.org/book/ch05-00-structs.html)
+- [Quiz multiple choice on Chapter 5](https://gemini.google.com/share/c293da4ba5b0)
 
 ### Example code
 

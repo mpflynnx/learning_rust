@@ -7,18 +7,22 @@ struct User {
     sign_in_count: u64,
 } // no semi-colon needed in Rust
 
+// field init shorthand syntax
+// https://doc.rust-lang.org/stable/book/ch05-01-defining-structs.html#using-the-field-init-shorthand
 fn build_user(email: String, username: String) -> User {
     User {
         active: true,
-        username,
-        email,
+        username, // field init shorthand syntax
+        email, // field init shorthand syntax
         sign_in_count: 1,
     }
 }
 
 fn main() {
-
     // Creating an instance of the User struct
+    // NOTE: mutability is a property of the struct instance
+    // binding, meaning that if the instance is 'mut' all its
+    // fields are mutable
     let mut user1 = User {
         active: true,
         username: String::from("usernumber234"),
@@ -37,24 +41,26 @@ fn main() {
         username: String::from("user2name"),
         email: String::from("user2email@email.com"),
         ..user1 // all other fields the same as user1
-        // user1 still valid as remaining fields are types that implement the copy trait
+                // user1 still valid as remaining fields are types that implement the copy trait
     };
 
     println!("user2: {:?}", user2);
-    
+
     // new instance from other instance
     // invalidates user1 as user1 username moved to user3
-    let user3= User {
+    let user3 = User {
         email: String::from("user3email@email.com"),
         ..user1 // all other fields the same as user1 including username??
-        // invalidates user1 as user1 username moved to user3
+                // invalidates user1 as user1 username moved to user3
     };
-    
+
     println!("user3: {:?}", user3);
     // println!("user1: {:?}", user1); // compile error value borrowed here after partial move
 
-    let user4 = build_user(String::from("newuser238@email.com"), String::from("newuser238"));
+    let user4 = build_user(
+        String::from("newuser238@email.com"),
+        String::from("newuser238"),
+    );
 
     println!("user4: {:?}", user4);
-
 }
