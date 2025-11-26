@@ -12,4 +12,9 @@
 - [8_5 match](./8_5_match/match_simple_example/src/main.rs)
 - [8_5 enum destructured](./8_5_match/enum_destruction/enum_destructured/src/main.rs)
 - [8_5 struct destructured](./8_5_match/struct_destructured/struct_destructured/src/main.rs)
+- [8_6 if let example](./8_6_if_let/if_let_example/src/main.rs)
+- [8_6 if let enum example](./8_6_if_let/if_let_enum_example/src/main.rs)
+- [8_6 if let challenge](./8_6_if_let/if_let_challenge/src/main.rs)
+- [8_7 let else example](./8_7_let_else/let_else_example/src/main.rs)
+- [8_8 while let example](./8_8_while_let/while_let_example/src/main.rs)
 
