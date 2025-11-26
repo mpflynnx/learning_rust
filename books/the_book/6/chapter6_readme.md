@@ -1,6 +1,17 @@
 ## Chapter 6. Enums and Pattern Matching
 
+### AI prompts
+- To generate a quiz.
+```
+I'm learning the Rust programming language by reading the book found at this url: https://doc.rust-lang.org/book/ Generate some 20 multiple choice questions which will test my knowledge of chapter 6.
+```
+- To generate a study guide
+```
+I'm learning the Rust programming language by reading the book found at this url: https://doc.rust-lang.org/book/ Generate a study guide for knowledge of chapter 6
+```
 ### External References
+
+- [AI Quiz multiple choice on Chapter 6](https://gemini.google.com/share/3d152555bca7)
 
 - [Book Chapter 6: Enums and Pattern Matching](https://doc.rust-lang.org/stable/book/ch06-00-enums.html)
 - [Rust standard library Enum IpAddr definition](https://doc.rust-lang.org/stable/std/net/enum.IpAddr.html)

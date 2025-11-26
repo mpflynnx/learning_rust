@@ -1,5 +1,7 @@
 // https://doc.rust-lang.org/stable/book/ch06-02-match.html
 
+// The mandatory exhaustive checking by the compiler is the main power of
+// 'match', ensuring no possible value is missed.
 fn main() {
     let dice_roll = 9;
     // match is exhaustive, must match all possible cases

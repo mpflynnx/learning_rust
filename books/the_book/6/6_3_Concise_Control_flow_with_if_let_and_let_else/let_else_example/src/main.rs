@@ -6,6 +6,8 @@ enum UsState {
     Alaska,
 }
 
+// Methods are added to both structs and enums using the
+// 'impl' keyword followed by the type name.
 impl UsState {
     fn existed_in(&self, year: u16) -> bool {
         match self {
@@ -76,6 +78,12 @@ fn main() {
         println!("We found a quarter: {}", description);
     } else {
         // Optional else block for the None case
+        // It executes if any pattern other than the one specified is matched,
+        // not just 'None'.
         println!("The coin was not a state quarter, so no description was generated.");
     }
+
+    // The 'if let' construct only executes its body if the
+    // expression matches the exact pattern. If it does not
+    // match exactly the else block it executed.
 }

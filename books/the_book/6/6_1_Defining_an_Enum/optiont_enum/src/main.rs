@@ -44,16 +44,22 @@ fn main() {
     let absent_number: Option<i32> = None;
     assert_eq!(absent_number.is_some(), false);
 
-    let five = Some(5);
+    // 'i' will bind to the value contained in Some() in the match expression, i.e 5
+    let five = Some(5); // enum option<t> mutable by default
     let six = plus_one(five);
     let none = plus_one(None);
     assert_eq!(six, Some(6));
     assert_eq!(none, None);
 }
 
+// Must first explicitly handle the 'Some' and 'None' cases 
+// before performing calculations on the inner value.
+// the line below will result in compile error
+let y = five + 1; // No add trait for Option<T> use fn plus_one()
+
 fn plus_one(x: Option<i32>) -> Option<i32> {
     match x {
         None => None,
-        Some(i) => Some(i + 1),
+        Some(i) => Some(i + 1), // 'i' binds to the value contained in Some
     }
 }

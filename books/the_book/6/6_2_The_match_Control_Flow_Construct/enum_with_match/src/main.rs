@@ -36,6 +36,8 @@ enum UsCoin {
     Quarter(UsState),
 }
 
+// The mandatory exhaustive checking by the compiler is the main power of 
+// 'match', ensuring no possible value is missed.
 fn value_in_cents(us_coin: UsCoin) -> u8 {
     match us_coin {
         UsCoin::Penny => 1,
