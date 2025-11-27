@@ -17,6 +17,8 @@ My compiled code examples with completed activities.
 - [5_2 Literals](./5_types/5_2_literals/literals/src/main.rs)
 - [7 Expressions](./7_expressions/expressions/src/main.rs)
 - [8 Flow of Control](./8_flow_of_control/chapter8_readme.md)
+- [10_1 Modules | visibility](./10_modules/10_1_visibility/visibility_example/src/main.rs)
+- [10_5 Modules | file hierarchy](./10_modules/10_5_file_hierarchy/visibility/split.rs)
 - [18 Error handling](./18_error_handling/chapter18_readme.md)
 
 
