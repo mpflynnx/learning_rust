@@ -26,6 +26,8 @@ Small exercises to get you used to reading and writing Rust code.
 - [exercises/04_primitive_types/primitive_types4.rs](./04_primitive_types/primitive_types4.rs)
 - [exercises/04_primitive_types/primitive_types5.rs](./04_primitive_types/primitive_types5.rs)
 - [exercises/04_primitive_types/primitive_types6.rs](./04_primitive_types/primitive_types6.rs)
+- [exercise/05_vecs/vecs1.rs](./05_vecs/vecs1.rs)
+- [exercise/05_vecs/vecs2.rs](./05_vecs/vecs2.rs)
 - [exercises/07_structs/structs1.rs](./07_structs/structs1.rs)
 - [exercises/07_structs/structs2.rs](./07_structs/structs2.rs)
 - [exercises/07_structs/structs3.rs](./07_structs/structs3.rs)
