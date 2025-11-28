@@ -3,8 +3,8 @@ fn main() {
     let v1: Vec<i32> = Vec::new();
 
     // Create a new vector containing initial i32 type values
-    // vec! macro usage
-    let v2 = vec![123, 34, 78, 34];
+    // vec! macro usage, type inferred as i32
+    let v2 = vec![123, 34, 78, 34]; // let v2 = vec![123i32, 34, 78, 34]; forced infer with 123i32
 
     // Iterating over the value of a Vector.
     for i in &v2 {
