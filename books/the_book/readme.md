@@ -11,6 +11,7 @@
 - [Chapter 5 | Using Structs to Structure Related Data](5/chapter5_readme.md)
 - [Chapter 6 | Enums and Pattern Matching](./6/chapter6_readme.md)
 - [Chapter 7 | Managing Growing Projects with Packages, Crates, and Modules](./7/chapter7_readme.md)
+- [Chapter 8 | Common Collections](./8/chapter8_readme.md)
 - [Chapter 11 | Writing Automated Tests](11/chapter11_readme.md)
 
 ### Extras
