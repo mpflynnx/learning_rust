@@ -8,3 +8,8 @@ Useful in combination with enums is Rust's "pattern matching" facility, which ma
 
 - [Enums](https://doc.rust-lang.org/book/ch06-00-enums.html)
 - [Pattern syntax](https://doc.rust-lang.org/book/ch19-03-pattern-syntax.html)
+
+## Exercise Solutions
+- [enums1](./enums1.rs)
+- [enums2](./enums2.rs)
+- [enums3](./enums3/src/lib.rs)
