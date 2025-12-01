@@ -1,6 +1,6 @@
 fn trim_me(input: &str) -> &str {
     // TODO: Remove whitespace from both ends of a string.
-    input.trim()
+    input.trim() // .trim() removes all white spaces
 }
 
 fn compose_me(input: &str) -> String {
@@ -26,7 +26,7 @@ fn compose_me(input: &str) -> String {
 
 fn replace_me(input: &str) -> String {
     // TODO: Replace "cars" in the string with "balloons".
-    input.replace("cars", "balloons")
+    input.replace("cars", "balloons") // .replace used
 }
 
 fn main() {

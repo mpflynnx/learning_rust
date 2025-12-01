@@ -7,3 +7,9 @@ to identify and create them, as well as use them.
 ## Further information
 
 - [Strings](https://doc.rust-lang.org/book/ch08-02-strings.html)
+
+## Exercise Solutions
+- [strings1](strings1.rs)
+- [strings2](strings2.rs)
+- [strings3](strings3.rs)
+- [strings4](strings4.rs)
