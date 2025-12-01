@@ -9,3 +9,4 @@
 ### Example code
 - [Chapter 8_1 | vector usage example](./8_1_vectors/vector_usage/src/main.rs)
 - [Chapter 8_2 | UTF-8 with Strings](./8_2_strings/strings/src/main.rs)
+- [Chapter 8_3 | Storing Keys with Associated Values in Hash Maps](./8_3_hash_maps/chapter8_3_readme.md)
