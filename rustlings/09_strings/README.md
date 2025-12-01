@@ -7,6 +7,7 @@ to identify and create them, as well as use them.
 ## Further information
 
 - [Strings](https://doc.rust-lang.org/book/ch08-02-strings.html)
+- [When should I use String vs &str?](https://steveklabnik.com/writing/when-should-i-use-string-vs-str/)
 
 ## Exercise Solutions
 - [strings1](strings1.rs)
