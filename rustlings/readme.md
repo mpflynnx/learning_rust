@@ -41,6 +41,9 @@ Small exercises to get you used to reading and writing Rust code.
 - [exercises/10_modules/1](./10_modules/modules1.rs)
 - [exercises/10_modules/2](./10_modules/modules2.rs) 
 - [exercises/10_modules/3](./10_modules/modules3.rs)
+- [exercises/11_hashmaps/hashmaps1.rs](./11_hashmaps/hashmaps1.rs)
+- [exercises/11_hashmaps/hashmaps2.rs](./11_hashmaps/hashmaps2.rs)
+- [exercises/11_hashmaps/hashmaps3](./11_hashmaps/hashmaps3/src/main.rs)
 
 ## Useful links
 - [Rustlings Setup Instructions](https://rustlings.rust-lang.org/setup/)
