@@ -1,7 +1,7 @@
 use std::collections::HashMap; // needed for Hash maps
 
 fn main() {
-    // Create a new empty hash map
+    // Create a new empty hash map with default initial capacity (recommended).
     let mut scores = HashMap::new(); //  no macro like vec! for hash maps
 
     scores.insert(String::from("Blues"), 10); // inferred String and i32 types

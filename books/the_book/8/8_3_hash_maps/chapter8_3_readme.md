@@ -3,6 +3,7 @@
 ### External References
 
 - [Book Chapter 8.3 Storing Keys with Associated Values in Hash Maps](https://doc.rust-lang.org/stable/book/ch08-03-hash-maps.html)
+- [std::collections Struct HashMap](https://doc.rust-lang.org/std/collections/struct.HashMap.html)
 - [HashMap uses a hashing function called SipHash](https://en.wikipedia.org/wiki/SipHash)
 
 
